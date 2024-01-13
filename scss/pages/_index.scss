@@ -1,0 +1,81 @@
+/* Seccion Sobre One-Site */
+.sobre-oneSite {
+    padding: 70px 0px;
+
+    .row {
+        @include flex-center();
+
+        .sobre-oneSite_imagen {
+            img {
+                border-radius: 20px;
+                box-shadow: 0px 0px 20px #bbb;
+            }
+        }
+
+        .sobre-oneSite_textos {
+            h2 {
+                font-size: 2.5em;
+                font-weight: 600;
+                margin-bottom: 20px;
+
+                span {
+                    font-size: 1.3em;
+                    font-weight: 700;
+                    color: $color-amarillo;
+                    text-decoration: line-through;
+                }
+            }
+
+            p {
+                font-size: 1.2em;
+                font-weight: 500;
+                margin-bottom: 40px;
+
+                b {
+                    display: block;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Seccion de Noticias */
+.noticias {
+    padding: 60px 40px;
+    background: linear-gradient(#000000a2, #0000009d), url(../img/index/noticias.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-bottom: 40px;
+        font-weight: 700;
+        color: $textos-blancos;
+    }
+}
+
+/* Otra seccion */
+.mas-onePiece {
+    padding: 50px 0px;
+
+    .mas-onePiece_textos {
+        h2 {
+            span {
+                font-size: 1.2em;
+                color: $color-amarillo;
+            }
+        }
+    }
+
+    .mas-onePiece_imagen {
+        img {
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px #bbb;
+            margin-top: 40px;
+        }
+    }
+}

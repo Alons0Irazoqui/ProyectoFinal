@@ -1,0 +1,591 @@
+/*Reset*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Estilos generales */
+.titulo-dos {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.parrafo {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+p .negrita {
+  display: block;
+  margin-top: 20px;
+}
+
+.boton {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid #ffa600;
+  color: #ffa600;
+  border-radius: 20px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.boton:hover {
+  box-shadow: 0px 0px 15px #ffa600;
+  text-shadow: 0px 0px 15px #ffa600;
+  transform: scale(0.9);
+}
+
+/* Estilos del Header y Nav */
+.header {
+  box-shadow: 0px 0px 10px #222;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.header .navbar {
+  background-color: #fff;
+}
+.header .navbar .titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.header .navbar .titulo img {
+  width: 50px;
+  margin-right: 15px;
+}
+.header .navbar div ul {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.header .navbar div ul li {
+  margin: 0px 10px;
+}
+.header .navbar div ul li a {
+  font-weight: 600;
+  color: #222;
+  transition: all 0.3s;
+  text-align: center;
+}
+.header .navbar div ul li a:hover {
+  transform: scale(0.9);
+  color: #ffa600;
+}
+.header .navbar div ul .li-contacto {
+  padding: 0px 30px;
+  margin-left: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #ffa600;
+}
+.header .navbar div ul .li-contacto a {
+  color: #ffa600;
+  font-weight: 700;
+  display: block;
+}
+.header .navbar div ul .li-contacto a:hover {
+  font-weight: 700;
+}
+.header .navbar .buton {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.header .navbar .buton span {
+  background-image: url(../img/menu.png);
+}
+
+.main {
+  width: 100%;
+  padding-top: 75px;
+}
+
+.hero {
+  width: 100%;
+  height: calc(100vh - 75px);
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2196078431), rgba(0, 0, 0, 0.8705882353)), url(../img/Wallpapers/index.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.hero h1 {
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: 700;
+  color: #fff;
+}
+.hero h1 span {
+  font-size: 1.2em;
+  color: #ffa600;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8352941176), rgba(0, 0, 0, 0.8352941176)), url(../img/Wallpapers/footer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer .footer-enlaces ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-enlaces ul li {
+  margin: 10px 5px;
+}
+.footer .footer-enlaces ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: #fff;
+}
+.footer .footer-copyright p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+.footer .footer-copyright img {
+  width: 60px;
+}
+
+/* Seccion Sobre One-Site */
+.sobre-oneSite {
+  padding: 70px 0px;
+}
+.sobre-oneSite .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-oneSite .row .sobre-oneSite_imagen img {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #bbb;
+}
+.sobre-oneSite .row .sobre-oneSite_textos h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.sobre-oneSite .row .sobre-oneSite_textos h2 span {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #ffa600;
+  text-decoration: line-through;
+}
+.sobre-oneSite .row .sobre-oneSite_textos p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.sobre-oneSite .row .sobre-oneSite_textos p b {
+  display: block;
+  margin-top: 20px;
+}
+
+/* Seccion de Noticias */
+.noticias {
+  padding: 60px 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6352941176), rgba(0, 0, 0, 0.6156862745)), url(../img/index/noticias.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.noticias h2 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Otra seccion */
+.mas-onePiece {
+  padding: 50px 0px;
+}
+.mas-onePiece .mas-onePiece_textos h2 span {
+  font-size: 1.2em;
+  color: #ffa600;
+}
+.mas-onePiece .mas-onePiece_imagen img {
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #bbb;
+  margin-top: 40px;
+}
+
+.hero-arcos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0941176471), rgba(0, 0, 0, 0.662745098)), url(../img/Wallpapers/Arcos.jpg);
+}
+
+.arcos .row {
+  padding: 50px 0px;
+}
+.arcos .row div img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #bbb;
+}
+.arcos .row h2 {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.arcos .row h2 span {
+  color: #ffa600;
+  font-size: 1.2em;
+}
+.arcos .row img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.arcos .row p {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.arcos .row .boton {
+  display: block;
+  text-align: center;
+}
+
+.arcos-marineford {
+  padding: 0 5%;
+  background: linear-gradient(rgba(255, 255, 255, 0.7411764706), #ffffff), url(../img/Arcos/MarineFord1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.arcos-marineford img {
+  margin-top: 40px;
+}
+
+.arcos-eastBlue {
+  padding: 0 5%;
+  background: linear-gradient(rgba(255, 255, 255, 0.7411764706), #ffffff), url(../img/Arcos/EastBlue1.webp);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.arcos-eastBlue img {
+  margin-top: 50px;
+}
+
+.hero-manga {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0941176471), rgba(0, 0, 0, 0.662745098)), url(../img/Wallpapers/MangaAnime.webp);
+}
+
+.manga-anime {
+  padding: 100px 0px;
+}
+.manga-anime .container-textos h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+  text-align: center;
+}
+.manga-anime .container-textos h2 span {
+  color: #ffa600;
+  text-decoration: line-through;
+}
+.manga-anime .container-textos p {
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+.manga-anime .container-textos .manga {
+  margin: 40px 0;
+}
+.manga-anime .container-textos .manga h3 {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+.manga-anime .container-textos .manga ul {
+  list-style: circle;
+  padding: 0px;
+}
+.manga-anime .container-textos .manga ul li {
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+.manga-anime .container-textos .manga .boton {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ffa600;
+  color: #fff;
+}
+.manga-anime .container-textos .anime .boton {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.manga-anime .container-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #ccc;
+  margin-top: 50px;
+}
+
+.hero-multimedia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0941176471), rgba(0, 0, 0, 0.662745098)), url(../img/Wallpapers/Multimedia.avif);
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.galeria h2 {
+  font-size: 2.4em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.galeria h2 span {
+  color: #ffa600;
+}
+.galeria .galeria-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: dense;
+  gap: 10px;
+}
+.galeria .galeria-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.main-contacto {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.6784313725), rgba(255, 255, 255, 0.6980392157)), url(../img/Wallpapers/contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-contacto .contacto-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main-contacto .contacto-section form {
+  padding: 25px;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #eee;
+  margin-bottom: 40px;
+  backdrop-filter: blur(10px);
+}
+.main-contacto .contacto-section form .logo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-contacto .contacto-section form .logo img {
+  width: 60px;
+  margin-bottom: 0px;
+}
+.main-contacto .contacto-section form .logo p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.main-contacto .contacto-section form .input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: auto;
+}
+.main-contacto .contacto-section form .input .boton {
+  background-color: #ffa600;
+  color: #fff;
+  padding: 10px 0px;
+  width: 100%;
+}
+.main-contacto .contacto-section form .input input {
+  margin: 5px 0px;
+  padding: 5px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s;
+}
+.main-contacto .contacto-section form .input input::placeholder {
+  color: #cfcfcf;
+  transition: all 0.3s;
+}
+.main-contacto .contacto-section form .input input:focus {
+  border: 2px solid #ffa600;
+  transform: scale(0.95);
+}
+.main-contacto .contacto-section form .input input:focus::placeholder {
+  color: #ffa600;
+}
+.main-contacto .contacto-section form .input textarea {
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s;
+  resize: none;
+}
+.main-contacto .contacto-section form .input textarea:focus {
+  border: 2px solid #ffa600;
+  transform: scale(0.95);
+}
+.main-contacto .contacto-section form .input textarea::placeholder {
+  color: #cfcfcf;
+  transition: all 0.3s;
+}
+.main-contacto .contacto-section form .input textarea:focus::placeholder {
+  color: #ffa600;
+}
+
+.footer-contacto {
+  background: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 10px 0px;
+  box-shadow: 0px 0px 10px #666;
+}
+.footer-contacto .footer-enlaces ul li a {
+  color: #666;
+}
+.footer-contacto .footer-enlaces img {
+  margin: 10px 0px;
+  width: 40px;
+}
+.footer-contacto .footer-copyright p {
+  color: #666;
+}
+
+@media screen and (min-width: 437px) {
+  /*Hero*/
+  .hero {
+    padding: 0px 80px;
+  }
+  .hero p {
+    font-size: 1.3em;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+  }
+  .hero h1 {
+    font-size: 3em;
+  }
+  .hero h1 span {
+    font-size: 1.3em;
+    color: #ffa600;
+    font-weight: 700;
+  }
+  /*Footer*/
+  .footer .footer-enlaces ul li {
+    margin: 10px 15px;
+  }
+  .footer .footer-enlaces ul li a {
+    font-size: 1rem;
+  }
+  .footer .footer-copyright p {
+    font-size: 1rem;
+  }
+  /*Arcos*/
+  .arcos .row {
+    padding: 80px 0px;
+  }
+  /*Multimedia*/
+  .galeria .galeria-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .galeria .galeria-container .uno {
+    grid-column: 1/3;
+  }
+  .galeria .galeria-container .cinco {
+    grid-column: 2/4;
+  }
+  .galeria .galeria-container .ocho {
+    grid-column: 1/3;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .galeria .galeria-container {
+    grid-template-columns: repeat(auto-fix, minmax(300px 1fr));
+  }
+  .galeria .galeria-container .tres {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  .galeria .galeria-container .cuatro {
+    grid-column: 1/3;
+  }
+  .galeria .galeria-container .ocho {
+    grid-column: 2/4;
+  }
+  .galeria .galeria-container .uno {
+    grid-column: auto;
+  }
+  .galeria .galeria-container .cinco {
+    grid-column: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

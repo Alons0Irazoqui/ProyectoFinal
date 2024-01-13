@@ -1,0 +1,69 @@
+.hero-arcos {
+    background-image: linear-gradient(#00000018, #000000a9), url(../img/Wallpapers/Arcos.jpg);
+}
+
+.arcos {
+    .row {
+        padding: 50px 0px;
+
+        div {
+            img {
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0px 0px 20px $gris-claro;
+            }
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: 700;
+            margin: 20px 0px;
+
+            span {
+                color: $color-amarillo;
+                font-size: 1.2em;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        p {
+            font-size: 1em;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+
+        .boton {
+            display: block;
+            text-align: center;
+        }
+
+    }
+}
+.arcos-marineford{
+    padding: 0 5%;
+    background: linear-gradient(#ffffffbd, #ffffff), url(../img/Arcos/MarineFord1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    img {
+        margin-top: 40px;
+    }
+}
+
+.arcos-eastBlue {
+    padding: 0 5%;
+    background: linear-gradient(#ffffffbd, #ffffff), url(../img/Arcos/EastBlue1.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    img{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,76 @@
+.hero-manga {
+    background-image: linear-gradient(#00000018, #000000a9), url(../img/Wallpapers/MangaAnime.webp);
+}
+
+.manga-anime {
+    padding: 100px 0px;
+
+    .container-textos {
+        h2 {
+            font-size: 2.4em;
+            font-weight: 700;
+            text-align: center;
+
+            span {
+                color: $color-amarillo;
+                text-decoration: line-through;
+            }
+        }
+
+        p {
+            font-size: 1em;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .manga {
+            margin: 40px 0;
+
+            h3 {
+                text-align: center;
+                font-size: 2.3em;
+                font-weight: 700;
+            }
+
+            ul {
+                list-style: circle;
+                padding: 0px;
+
+                li {
+                    margin-top: 10px;
+                    font-size: 1em;
+                    font-weight: 500;
+                    text-align: center;
+                }
+            }
+
+            .boton {
+                display: block;
+                width: 100%;
+                text-align: center;
+                background-color: $color-amarillo;
+                color: $color-claro;
+            }
+        }
+
+        .anime {
+            .boton {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .container-img {
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px #ccc;
+            margin-top: 50px;
+        }
+    }
+}

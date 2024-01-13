@@ -1,0 +1,34 @@
+.hero-multimedia {
+    background-image: linear-gradient(#00000018, #000000a9), url(../img/Wallpapers/Multimedia.avif);
+}
+
+
+.galeria {
+    @include flex(column, center, center);
+    padding: 70px;
+
+    h2 {
+        font-size: 2.4em;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 50px;
+
+        span {
+            color: $color-amarillo;
+        }
+    }
+
+    .galeria-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-flow: dense;
+        gap: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+    }
+}

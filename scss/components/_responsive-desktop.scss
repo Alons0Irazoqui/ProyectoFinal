@@ -1,0 +1,28 @@
+@media screen and (min-width:1000px) {
+    .galeria {
+        .galeria-container {
+            grid-template-columns: repeat(auto-fix, minmax(300px 1fr));
+
+            .tres {
+                grid-column: 3/4;
+                grid-row: 1/3;
+            }
+
+            .cuatro{
+                grid-column: 1/3;
+            }
+
+            .ocho {
+                grid-column: 2/4;
+            }
+
+            .uno {
+                grid-column: auto;
+            }
+
+            .cinco {
+                grid-column: auto;
+            }
+        }
+    }
+}

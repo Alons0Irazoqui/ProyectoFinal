@@ -1,0 +1,36 @@
+.main {
+    width: 100%;
+    padding-top: 75px;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 75px);
+    padding: 0px 20px;
+    @include flex(column, center, center);
+    background: linear-gradient(#00000038, #000000de), url(../img/Wallpapers/index.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    h1 {
+        text-align: center;
+        font-size: 2.1em;
+        font-weight: 700;
+        color: $textos-blancos;
+
+        span {
+            font-size: 1.2em;
+            color: $color-amarillo;
+            font-weight: 700;
+        }
+    }
+
+    p {
+        font-size: 1.1em;
+        text-align: center;
+        color: $textos-blancos;
+        font-weight: 700;
+    }
+}

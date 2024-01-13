@@ -1,7 +1,6 @@
-<h1 align="center">Hola👋, PreEntrega3 Alonso Irazoqui</h1>
-<h3 align="center">En este repositorio se encuentra la tercera Pre-Entrega del Curso de Derarrolo Web de CoderHouse.</h3>
+<h1 align="center">Hola👋, Proyecto Final Alonso Irazoqui</h1>
+<h3 align="center">En este repositorio se encuentra El Proyecto Final del Curso de Derarrolo Web de CoderHouse.</h3>
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
